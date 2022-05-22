@@ -82,16 +82,16 @@ public aspect SortTiming {
 
         System.out.println("In detail:");
         if(contBubbleSort > 0)
-            System.out.println("Function sort in BubbleSort ran " + contBubbleSort +" times and took in total " + allTimeBubbleSort +" ms");
+            System.out.println("Function sort in BubbleSort run " + contBubbleSort +" times and took in total " + allTimeBubbleSort +" ms");
 
         if(contInsertionSort > 0)
-            System.out.println("Function sort in InsertionSort ran " + contInsertionSort +" times and took in total " + allTimeInsertionSort +" ms");
+            System.out.println("Function sort in InsertionSort run " + contInsertionSort +" times and took in total " + allTimeInsertionSort +" ms");
 
         if(contMergeSort > 0)
-            System.out.println("Function sort in MergeSort ran " + contMergeSort +" times and took in total " + allTimeMergeSort +" ms");
+            System.out.println("Function sort in MergeSort run " + contMergeSort +" times and took in total " + allTimeMergeSort +" ms");
 
         if(contQuickSort > 0)
-            System.out.println("Function sort in QuickSort ran " + contQuickSort +" times and took in total " + allTimeQuickSort +" ms");
+            System.out.println("Function sort in QuickSort run " + contQuickSort +" times and took in total " + allTimeQuickSort +" ms");
     }
 
 
